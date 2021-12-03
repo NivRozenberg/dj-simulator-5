@@ -1,0 +1,58 @@
+.square:before{
+    content: "";
+    display: block;
+    padding-top: 100%;  /* initial ratio of 1:1*/
+}
+
+h1, img {
+    text-align:center;
+}
+
+
+div.examplediv {
+    margin-left: 100px;
+    
+    width: 150px;
+    height: 150px;
+    background-color: rgb(225, 228, 230);
+    /* Rotate div */
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    /* float: left; */
+    box-shadow: 5px 5px 10px;
+    -moz-border-radius: 70px; 
+        -webkit-border-radius: 70px; 
+}
+
+p.exampletext {
+
+    -ms-transform: rotate(-45deg); 
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+   
+    }
+/* 
+    #adioId{
+        display: none;
+    } */
+
+    .container{
+        width: 100%;
+        height: 100%;
+        background: rgb(17, 17, 19); 
+        -moz-border-radius: 70px; 
+        -webkit-border-radius: 70px; 
+        /* border-radius: 70px; */
+    }
+
+
+    #circle {
+        width: 150px;
+        height: 150px;
+        background: rgb(255, 255, 255);
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        text-align: center;
+    }

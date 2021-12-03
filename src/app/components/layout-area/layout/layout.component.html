@@ -1,0 +1,199 @@
+<h1 class="col-lg-12 col-md-12 col-sm-12">Welcome to the dj table</h1>
+<!-- <svg width="31" height="31">
+    <rect x="12" y="-10" width="20" height="20" transform="rotate(45)" />
+</svg> -->
+
+<div class="col d-flex justify-content-center">
+    <img class="d-block" src="../../../../assets/dj.jpg" alt="">
+  </div>
+
+
+<div class="container  mt-5">
+    <div class="row">
+        <div  class="examplediv mt-5 ">
+            <p class="exampletext ">
+            <!-- 
+               -->
+                <!-- *ngFor="let number of [0,1,2,3,4,5,6,7,8]" -->
+                <!-- <audio id="audioId" controls loop >
+                    <source src="../../../../assets/just-relax-11157.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio><br> -->
+                  <b>Slow Guitar</b>
+
+                  <br>
+
+                  <audio #ref  loop autoplay src="../../../../assets/just-relax-11157.mp3" ></audio>
+                  <button  class="btn btn-primary btn-sm" (click)="ref.play()">▶️ play</button>
+                  <button  class="btn btn-danger btn-sm"(click)="ref.pause()">⏸ pause</button>
+                 
+            </p>
+
+
+
+            
+        </div>
+
+
+        <div  class="examplediv mt-5 ">
+            <p class="exampletext ">
+               
+                
+                <b>Slow Drums</b>
+
+                <br>
+
+
+                  <audio #ref2  loop autoplay src="../../../../assets/drums_120bpm.mp3"  ></audio>
+                  <button class="btn btn-primary btn-sm" (click)="ref2.play()">▶️ play</button>
+                  <button class="btn btn-danger btn-sm" (click)="ref2.pause()">⏸ pause</button>
+                 
+            </p>
+            
+        </div>
+
+
+        <div  class="examplediv mt-5">
+            <p class="exampletext ">
+               
+                
+                <b>Mystery</b>
+
+                <br>
+
+
+                  <audio #ref3  loop autoplay src="../../../../assets/clip-3-muzica-pentru-film-cinematic-24-biti-wav-120-bpm-104-min-9014.mp3"></audio>
+                  <button  class="btn btn-primary btn-sm" (click)="ref3.play()">▶️ play</button>
+                  <button  class="btn btn-danger btn-sm" (click)="ref3.pause()">⏸ pause</button>
+                 
+            </p>
+            
+        </div>
+
+
+        <div  class="examplediv mt-5">
+            <p class="exampletext ">
+               
+                
+                <b>Fast Piano</b>
+
+                <br>
+
+
+                  <audio #ref4  loop autoplay src="../../../../assets/home-for-the-holidays-120-bpm-11037.mp3"></audio>
+                  <button  class="btn btn-primary btn-sm" (click)="ref4.play()">▶️ play</button>
+                  <button class="btn btn-danger btn-sm" (click)="ref4.pause()">⏸ pause</button>
+                 
+            </p>
+            
+        </div>
+
+
+        <div  class="examplediv mt-5">
+            <p class="exampletext ">
+               
+                
+                <b>Regular</b>
+
+                <br>
+
+
+                  <audio #ref5  loop  autoplay src="../../../../assets/waltz-in-4x4-beat-120-bpm-10449.mp3"></audio>
+                  <button class="btn btn-primary btn-sm" (click)="ref5.play()">▶️ play</button>
+                  <button class="btn btn-danger btn-sm" (click)="ref5.pause()">⏸ pause</button>
+                 
+            </p>
+            
+        </div>
+
+        <div  class="examplediv mt-5">
+            <p class="exampletext ">
+               
+                
+                <b>Joy</b>
+
+                <br>
+
+
+                  <audio #ref6  loop autoplay src="../../../../assets/219255__radiopassiveboy__tambourine-loop-120bpm.wav"></audio>
+                  <button class="btn btn-primary btn-sm" (click)="ref6.play()">▶️ play</button>
+                  <button class="btn btn-danger btn-sm" (click)="ref6.pause()">⏸ pause</button>
+                 
+            </p>
+            
+        </div>
+
+        <div  class="examplediv mt-5">
+            <p class="exampletext ">
+               
+                
+                
+                <b>Friday</b>
+
+                <br>
+
+                  <audio #ref7  loop autoplay src="../../../../assets/235836__waveplaysfx__drumloop-120-bpm-edm-hat-loop-007.wav"></audio>
+                  <button class="btn btn-primary btn-sm" (click)="ref7.play()">▶️ play</button>
+                  <button class="btn btn-danger btn-sm" (click)="ref7.pause()">⏸ pause</button>
+                 
+            </p>
+            
+        </div>
+
+        <div  class="examplediv mt-5">
+            <p class="exampletext ">
+               
+                
+                <b>Mix</b>
+
+                <br>
+
+
+                  <audio #ref8  loop autoplay src="../../../../assets/background-music-120-bpm-10441.mp3"></audio>
+                  <button class="btn btn-primary btn-sm" (click)="ref8.play()">▶️ play</button>
+                  <button class="btn btn-danger btn-sm" (click)="ref8.pause()">⏸ pause</button>
+                 
+            </p>
+            
+        </div>
+
+        <div  class="examplediv mt-5">
+            <p class="exampletext ">
+               
+                
+                <b>Disco</b>
+
+               <br>
+                  <audio #ref9   autoplay loop  src="../../../../assets/clip-2-muzica-pentru-reclama-film-24-biti-wav-120-bpm-9013.mp3"></audio>
+                  <button class="btn btn-primary btn-sm" (click)="ref9.play()">▶️ play</button>
+                  <button class="btn btn-danger btn-sm" (click)="ref9.pause()">⏸ pause</button>
+                 
+            </p>
+            
+        </div>
+
+
+
+
+
+
+        
+
+    </div>
+</div>
+
+
+
+<!-- <div id="circle">
+    <b>Disco</b>
+
+    <br>
+       <audio #ref9   autoplay loop  src="../../../../assets/clip-2-muzica-pentru-reclama-film-24-biti-wav-120-bpm-9013.mp3"></audio>
+       <button class="btn btn-primary btn-sm mt-5" (click)="ref9.play()">▶️ play</button>
+       <button class="btn btn-danger btn-sm mt-5" (click)="ref9.pause()">⏸ pause</button>
+      </div> -->
+
+ 
+
+
+
